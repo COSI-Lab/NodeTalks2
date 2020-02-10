@@ -9,7 +9,7 @@
     "test": "mocha test/*.js"
   },
   "lint-staged": {
-    "*.js": "standard"
+    "*.js": "eslint ."
   },
   "husky": {
     "hooks": {
