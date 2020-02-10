@@ -27,9 +27,11 @@
   },
   "homepage": "https://github.com/reecer62/NodeTalks2#readme",
   "devDependencies": {
+    "codecov": "^3.6.5",
     "eslint": "^6.8.0",
     "husky": "^4.2.1",
     "lint-staged": "^10.0.7",
+    "nyc": "^15.0.0",
     "standard": "^14.3.1"
   }
 }
