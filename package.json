@@ -4,12 +4,12 @@
   "description": "An updated version of the COSI NodeTalks app.",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
-    "format": "standard --fix",
+    "lint": "eslint . --ext .js",
+    "format": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
-    "*.js": "standard"
+    "*.js": "eslint ."
   },
   "husky": {
     "hooks": {
