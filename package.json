@@ -8,7 +8,8 @@
     "format": "standard --fix",
     "test": "mocha test/*.js",
     "codecov": "codecov",
-    "coverage": "c8 --reporter=text --reporter=lcov npm run test"
+    "coverage": "c8 --reporter=text --reporter=lcov npm run test",
+    "mkdocs": "jsdoc -c conf.json"
   },
   "lint-staged": {
     "*.js": "standard"
@@ -34,6 +35,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-mocha": "^6.2.2",
     "husky": "^4.2.1",
+    "jsdoc": "^3.6.3",
     "lint-staged": "^10.0.7",
     "mocha": "^7.0.1",
     "standard": "^14.3.1"
