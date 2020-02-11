@@ -11,11 +11,11 @@
     "coverage": "c8 --reporter=text --reporter=lcov npm run test"
   },
   "lint-staged": {
-    "*.js": "eslint ."
+    "*.js": "standard"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && eslint test/*.js"
     }
   },
   "repository": {
