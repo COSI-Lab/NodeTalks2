@@ -1,8 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es6": true,
-        "mocha": true
+        "es6": true    
     },
     "extends": [
         "standard"
@@ -15,7 +14,11 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
+    "plugins": [
+        "mocha"
+    ],
     "rules": {
-        "no-var": "error"
+        "no-var": "error",
+        "mocha/no-exclusive-tests": "error"
     }
 }
