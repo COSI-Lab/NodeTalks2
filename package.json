@@ -7,7 +7,6 @@
     "lint": "standard && eslint test/*.js",
     "format": "standard --fix",
     "test": "mocha test/*.js",
-    "codecov": "codecov",
     "coverage": "c8 --reporter=text --reporter=lcov npm run test"
   },
   "lint-staged": {
