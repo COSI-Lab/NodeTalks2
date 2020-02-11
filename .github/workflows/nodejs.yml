@@ -20,7 +20,6 @@ jobs:
     - name: Generate Coverage Report
       run: npm run coverage
     - name: Upload Coverage to Codecov
-      run: bash <(curl -s https://codecov.io/bash) -t ${ CODECOV_TOKEN }
+      run: bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
       env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         fail_ci_if_error: true
