@@ -4,7 +4,6 @@
   "description": "An updated version of the COSI NodeTalks app.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "dev": "nodemon main -- -d",
     "lint": "standard && eslint test/*.js",
     "format": "standard --fix",
