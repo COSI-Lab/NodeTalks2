@@ -4,13 +4,13 @@
   "description": "An updated version of the COSI NodeTalks app.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon main -- -d",
-    "lint": "standard && eslint test/*.js",
-    "format": "standard --fix",
-    "test": "mocha test/*.js",
-    "codecov": "codecov",
     "coverage": "c8 --reporter=text --reporter=lcov npm run test",
-    "mkdocs": "jsdoc -c conf.json"
+    "dev": "nodemon main -- -d",
+    "format": "standard --fix",
+    "lint": "standard && eslint test/*.js",
+    "mkdocs": "jsdoc -c conf.json",
+    "test": "mocha test/*.js",
+    "codecov": "codecov"
   },
   "lint-staged": {
     "*.js": "standard"
