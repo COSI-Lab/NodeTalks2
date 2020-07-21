@@ -32,7 +32,7 @@
   "homepage": "https://github.com/reecer62/NodeTalks2#readme",
   "devDependencies": {
     "c8": "^7.1.0",
-    "codecov": "^3.6.5",
+    "codecov": "^3.7.1",
     "eslint": "^6.8.0",
     "eslint-plugin-mocha": "^6.2.2",
     "husky": "^4.2.1",
